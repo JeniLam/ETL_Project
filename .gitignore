@@ -91,12 +91,8 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
@@ -127,3 +123,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+00_input/ULAN1.xml
+00_input/ULAN2.xml
+00_input/ULAN3.xml
+00_input/ULAN4.xml
+Extra Files/cmoa_artist (2).csv
+Extra Files/cmoa_artist (3).csv
+Extra Files/cmoa_artwork (3).csv
+Extra Files/cmoa_artwork.csv
+Extra Files/moma-Artists.csv
+Extra Files/moma-Artworks.csv
+Extra Files/moma_artists_transformed.xlsx
+Extra Files/museums_merged_dmw.xlsx
+ULAN/ULAN1.xml
+ULAN/ULAN2.xml
+ULAN/ULAN3.xml
+ULAN/ULAN4.xml
+ULAN/ulan_in_depth.pdf
+00_config/pgAdmin table input notes.docx
+02_transform_code/merging_artwork-Copy1.ipynb

@@ -1,0 +1,15 @@
+CMOA was a datafile where birthdates and deathdates might be:
+M/D/Y
+Y-M-D
+Y-M-D|Y-M-D (multiple artists)
+
+Corrected in Excel:
+
+1) Text to columns (Delimited |) to remove 2nd, 3rd dates.(export to next col)
+2) Text to columns (Delimited /) to separate year column for m/y/d
+3) Text to columns (delimited -) to separate year column for y-m-d
+4) New column collects years: (=IF(E3="",F3,E3))
+5) Remove the 0 from blank rows: (=IF(G3=0,"",G3))
+
+
+28270

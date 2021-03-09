@@ -1,0 +1,4 @@
+museum_code,museum_abb,museum_name,museum_location,collection_url
+1,cmoa,Carnegie Museum of Art,"Pittsburgh, Pennsylvania",https://cmoa.org/collection/
+2,moma,Museum of Modern Art,"New York, New York",https://www.moma.org/collection/
+3,tate,Tate,"London, United Kingdom",https://www.tate.org.uk/about-us/collection/
