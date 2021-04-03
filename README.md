@@ -74,7 +74,7 @@ We encountered different formats used in the birth and death dates of artists th
 
 ## Next Steps
 #
-The next steps would be to rework the data cleaning of the artwork files and remerge to try to resolve the import error in PostGres SQL. Some datasets had more comprehensive fields than others, including WikiData links and ULAN a unique artist identifier among others. The next step would be to either locate or scrape from the web the missing data and add it to the database to provide a more compete dataset, that could be built upon over time as new information becomes available. 
+The next steps would be to rework the data cleaning of the artwork files and remerge to try to resolve the import error in PostGres SQL. Some datasets had more comprehensive fields than others, including WikiData links and ULAN a unique artist identifier among others. To obtain this artist information we could perform a scrape from the web for the missing data and add it to the database to provide a more compete dataset.  This could be built upon over time as new information becomes available. 
 
 Lessons Learned:
 Rather than rely upon PostGres SQL contraints we may have been more successful had we used Mongo instead. Also, the key takeaway is that no matter how clean you think your dataset is, you'll find out just how clean when you try into PostGres SQL!
